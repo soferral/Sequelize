@@ -1,6 +1,7 @@
 import express from 'express';
 import db from './database/initializeDB.js';
 import apiRoutes from './routes/apiRoutes.js';
+const staticFolder = 'public';
 
 const app = express();
 
